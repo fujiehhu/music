@@ -1,30 +1,45 @@
-# mobile
+@[toc]
 
-> A Vue.js project
+#  前言
 
-## Build Setup
+> 本版依旧是基于 Vue.js 和 ElementUI
 
-``` bash
-# install dependencies
-npm install
+> 这是网页播放器v2版，上一版只是可以播放本地music.json中的存好的音乐url。相比于上一个版本增加了几个页面。使用的接口也比较丰富。适配了移动端。
 
-# serve with hot reload at localhost:8080
-npm run dev
+> 接口地址：https://autumnfish.cn/  接口API：https://binaryify.github.io/NeteaseCloudMusicApi/#/?id=接口文档
 
-# build for production with minification
-npm run build
+---
 
-# build for production and view the bundle analyzer report
-npm run build --report
+# 首页 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200519003846579.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwMjQ3Mjgz,size_16,color_FFFFFF,t_70)
+# 播放页
 
-# run unit tests
-npm run unit
+未隐藏播放菜单栏
 
-# run e2e tests
-npm run e2e
+![ ](https://img-blog.csdnimg.cn/20200519003946724.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwMjQ3Mjgz,size_16,color_FFFFFF,t_70)
 
-# run all tests
-npm test
-```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+隐藏播放菜单栏
+
+ ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200519004022278.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwMjQ3Mjgz,size_16,color_FFFFFF,t_70)
+
+# 导航栏
+
+ ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200519004107484.png)
+#  歌曲评论 
+
+视差滚动效果
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200519004212350.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwMjQ3Mjgz,size_16,color_FFFFFF,t_70)
+# 播放菜单栏
+
+ ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200519004228614.png)
+# 搜索栏
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200519004324796.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwMjQ3Mjgz,size_16,color_FFFFFF,t_70)
+# 移动端效果
+<img src="https://img-blog.csdnimg.cn/20200519144914713.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwMjQ3Mjgz,size_16,color_FFFFFF,t_70"   width="30%">
+<img src="https://img-blog.csdnimg.cn/20200519145040502.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwMjQ3Mjgz,size_16,color_FFFFFF,t_70"   width="30%">
+<img src="https://img-blog.csdnimg.cn/20200519145115412.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwMjQ3Mjgz,size_16,color_FFFFFF,t_70"   width="30%">
+<img src="https://img-blog.csdnimg.cn/20200519145143997.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwMjQ3Mjgz,size_16,color_FFFFFF,t_70"   width="30%">
+<img src="https://img-blog.csdnimg.cn/20200519145206416.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwMjQ3Mjgz,size_16,color_FFFFFF,t_70"   width="30%">
+
