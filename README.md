@@ -2,15 +2,18 @@
 
 #  前言
 
-> 本版依旧是基于 Vue.js 和 ElementUI
+> 2020年5月19日， 不再更新。
 
-> 这是网页播放器v2版，上一版只是可以播放本地music.json中的存好的音乐url。相比于上一个版本增加了几个页面。使用的接口也比较丰富。适配了移动端。
+> 基于 Vue.js 和 ElementUI。
+
+> 部分页面适配了移动端。
 
 > 接口地址：https://autumnfish.cn/  接口API：https://binaryify.github.io/NeteaseCloudMusicApi/#/?id=接口文档
 
 ---
 
-# 首页 
+# 首页
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200519003846579.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwMjQ3Mjgz,size_16,color_FFFFFF,t_70)
 # 播放页
 
